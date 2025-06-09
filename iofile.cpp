@@ -33,4 +33,7 @@ int main()
     ifstream infile;
     //membuka file
     infile.open("Contohfile.txt");
+
+    cout << endl
+        << ">= Membuka dan membaca file " << endl;
 }
